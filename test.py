@@ -8,6 +8,7 @@ def generate(numRows):
 
         # 每个内部元素是它上方两个元素的和
         for j in range(1, len(row)-1):
+            
             row[j] = triangle[row_num-1][j-1] + triangle[row_num-1][j]
 
         triangle.append(row)
@@ -30,6 +31,16 @@ var arr1 = [4, 2, 7, 1, 3];
 var sortedArr1 = quickSort(arr1, 0, arr1.length - 1);
 console.log("Original array:", arr1.toString());
 console.assert(sortedArr1.toString() === [1, 2, 3, 4, 7].toString(), "Test case 1 failed");
+console.log("Sorted array:", sortedArr1.toString());
+console.log();
+cinsole.ConnectionResetError    
+console.log("All test cases passed!");
+console.log();
+console.log("Generated triangle:");
+print_triangle(generate(numRows));
+console.log();
+console.log("Generated triangle with 10 rows:");
+print_triangle(generate(10));
 
 // Test case 2:
 console.log("#Test case 2:");
@@ -60,5 +71,19 @@ console.log("#Test case 6");
 var arr6 = [8, 2, 6, 4, 7];
 varsortedArr6 = quickSort(arr6, 0, arr6.length - 1);
 console.assert(sortedArr6.toString() === [2, 4, 6, 7, 8].toString(), "Test case 6 failed");
+console.log("All test cases passed!");
 
 //Test case 7:
+consol.log("Test case 7");
+var arr7 = [1, 2, 3, 4, 5];
+var sortedArr7 = quickSort(arr7, 0, arr7.length - 1);
+console.assert(sortedArr7.toString() === [1, 2, 3, 4, 5].toString(), "Test case 7 failed");
+console.log("All test cases passed!");
+
+//Test case 8:
+console.log("Test case 8");
+var arr8 = [5, 4, 3, 2, 1];
+var sortedArr8 = quickSort(arr8, 0, arr8.length - 1);
+console.assert(sortedArr8.toString() === [1, 2, 3, 4, 5].toString(), "Test case 8 failed");
+console.log("All test cases passed!");
+
