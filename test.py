@@ -59,6 +59,7 @@ console.log("#Test case 4:");
 var arr4 = [9, 5, 3, 1, 7];
 var sortedArr4 = quickSort(arr4, 0, arr4.length - 1);
 console.assert(sortedArr4.toString() === [1, 3, 5, 7, 9].toString(), "Test case 4 failed");
+console.log();
 
 // Test case 5:
 console.log("#Test case 5:");
@@ -87,3 +88,6 @@ var sortedArr8 = quickSort(arr8, 0, arr8.length - 1);
 console.assert(sortedArr8.toString() === [1, 2, 3, 4, 5].toString(), "Test case 8 failed");
 console.log("All test cases passed!");
 
+
+//Test case 9:
+console.log("Test case 9");
