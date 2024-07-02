@@ -91,3 +91,214 @@ console.log("All test cases passed!");
 
 //Test case 9:
 console.log("Test case 9");
+var arr9 = [1, 3, 2, 5, 4];
+
+
+//Test case 10:
+console.log("Test case 10")
+var arr10 = [5, 4, 3, 2, 1];my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
+
+Key: a Value: 1
+Key: b Value: 2
+Key: c Value: 3
