@@ -492,3 +492,19 @@ Key: c Value: 3
 Key: a Value: 1
 Key: b Value: 2
 Key: c Value: 3
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+for key, value in my_dict.items():
+    print("Key:", key, "Value:", value)
