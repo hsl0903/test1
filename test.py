@@ -391,3 +391,25 @@ my_dict = {'a': 1, 'b': 2, 'c': 3}
 
 for key, value in my_dict.items():
     print("Key:", key, "Value:", value)
+import pytest
+from Your_modules import Your_function
+
+def test_generate():
+   assert generate(5) == [
+       [1],
+       [1, 1],
+       [1, 2, 1],
+       [1, 3, 3, 1],
+       [1, 4, 6, 4, 1]
+   ]
+
+   assert generate(1) == [[1]]
+   assert generate(2) == [[1], [1, 1]]
+   assert generate(3) == [[1], [1, 1], [1, 2, 1]]
+
+def test_print_triangle():
+   print_triangle(generate(5))
+   print_triangle(generate(10))
+
+test_generate()
+test_print_triangle()
