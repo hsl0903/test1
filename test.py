@@ -413,3 +413,7 @@ def test_print_triangle():
 
 test_generate()
 test_print_triangle()
+
+def test_print_triangle():
+   print_triangle(generate(5))
+   print_triangle(generate(10))
