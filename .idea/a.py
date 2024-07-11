@@ -36,6 +36,11 @@ while True:
                 print(map[y][x], end=' ')
         print()
 
+    # 判断游戏是否结束
+    if box_pos == target_pos:
+        print("恭喜你，成功完成任务！")
+        break
+
     # 获取玩家输入
     move = input("请输入移动方向（w上，s下，a左，d右）：")
 
@@ -60,7 +65,53 @@ while True:
         elif move == 'd' and map[box_pos[1]][box_pos[0]+1] != 1:
             box_pos = (box_pos[0]+1, box_pos[1])
 
+    # 更新箱子的位置
+    map[box_pos[1]][box_pos[0]] = 'B'
+
+    # 更新玩家的位置
+    map[player_pos[1]][player_pos[0]] = 'P'
+
+    # 打印地图
+    for row in map:
+        print(' '.join(row))
+
+
+
     # 检查是否完成了游戏
     if box_pos == target_pos:
         print("恭喜你，完成了游戏！")
         break
+def test_check_game_completion():
+    # Test case 1: Player has not reached the target position
+    box_pos = (1, 1)
+    target_pos = (3, 3)
+    assert check_game_completion(box_pos, target_pos) == False
+
+    # Test case 2: Player has reached the target position
+    box_pos = (3, 3)
+    target_pos = (3, 3)
+    assert check_game_completion(box_pos, target_pos) == True
+
+    # Test case 3: Player and target positions are the same but box is not at the target position
+    box_pos = (2, 2)
+    target_pos = (2, 2)
+    assert check_game_completion(box_pos, target_pos) == False
+
+    # Test case 4: Player and target positions are the same and box is at the target position
+    box_pos = (2, 2)
+    target_pos = (2, 2)
+    assert check_game_completion(box_pos, target_pos) == True
+
+    # Test case 5: Player and target positions are different and box is at the target position
+    box_pos = (3, 3)
+    target_pos = (2, 2)
+    assert check_game_completion(box_pos, target_pos) == False
+
+    # Test case 6: Player and target positions are different and box is not at the target position
+    box_pos = (1, 1)
+    target_pos = (2, 2)
+    assert check_game_completion(box_pos, target_pos) == False
+
+    print("All test cases pass")
+
+test_check_game_completion()
